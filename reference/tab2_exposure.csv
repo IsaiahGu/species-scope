@@ -1,0 +1,34 @@
+ds,retriever,name,family,top10_human_only,top10_animal_only,n_queries,exposure,exposure_lo,exposure_hi,exposure_3plus,animal_hits_judged_relevant,n_animal_hits,excess_vs_pool,excess_lo,excess_hi
+bioasq,bm25,BM25,lexical,0.7145,0.0968,660,0.4182,0.3818,0.4561,0.1061,0.3507,576,0.0033,-0.0100,0.0158
+bioasq,splade-pp,SPLADE++,learned sparse,0.6963,0.0952,,,,,,,,,,
+bioasq,gte-moderncolbert,GTE-ModernColBERT,multi-vector,0.7200,0.0815,,,,,,,,,,
+bioasq,e5,e5-base-v2,general dense,0.7136,0.0889,660,0.3606,0.3227,0.3970,0.1076,0.3352,537,-0.0043,-0.0175,0.0076
+bioasq,qwen3-emb,Qwen3-Embedding-0.6B,general dense,0.7197,0.0849,660,0.3500,0.3152,0.3848,0.0985,0.3411,516,-0.0079,-0.0208,0.0051
+bioasq,qwen3-emb-4b,Qwen3-Embedding-4B,general dense,0.7237,0.0798,,,,,,,,,,
+bioasq,egemma2,EmbeddingGemma 2,general dense,0.6901,0.1146,660,0.4470,0.4076,0.4848,0.1530,0.2715,685,0.0216,0.0093,0.0347
+bioasq,harrier,harrier-oss-v1-0.6b,general dense,0.7391,0.0807,660,0.3348,0.3000,0.3742,0.0924,0.3809,491,-0.0116,-0.0242,0.0002
+bioasq,medcpt,MedCPT,domain dense,0.7310,0.0617,660,0.2742,0.2409,0.3076,0.0697,0.4171,374,-0.0295,-0.0421,-0.0180
+bioasq,medcpt+ce,MedCPT + cross-encoder,reranking,0.7197,0.0722,660,0.3106,0.2758,0.3470,0.0848,0.4399,441,-0.0186,-0.0298,-0.0074
+bioasq,"rrf(bm25,qwen3-emb)","RRF(BM25, Qwen3-Embedding-0.6B)",fusion,0.7243,0.0884,,,,,,,,,,
+nfcorpus,bm25,BM25,lexical,0.7463,0.0342,278,0.1583,0.1151,0.2014,0.0108,0.3103,58,-0.0206,-0.0366,-0.0044
+nfcorpus,splade-pp,SPLADE++,learned sparse,0.7174,0.0511,,,,,,,,,,
+nfcorpus,gte-moderncolbert,GTE-ModernColBERT,multi-vector,0.7236,0.0366,,,,,,,,,,
+nfcorpus,e5,e5-base-v2,general dense,0.7284,0.0439,278,0.2086,0.1655,0.2554,0.0216,0.2716,81,-0.0093,-0.0264,0.0073
+nfcorpus,qwen3-emb,Qwen3-Embedding-0.6B,general dense,0.7150,0.0499,278,0.2158,0.1691,0.2698,0.0216,0.2500,80,-0.0042,-0.0212,0.0120
+nfcorpus,qwen3-emb-4b,Qwen3-Embedding-4B,general dense,0.7203,0.0464,,,,,,,,,,
+nfcorpus,egemma2,EmbeddingGemma 2,general dense,0.7374,0.0514,278,0.2194,0.1727,0.2699,0.0252,0.2708,96,-0.0032,-0.0199,0.0132
+nfcorpus,harrier,harrier-oss-v1-0.6b,general dense,0.7326,0.0425,278,0.1942,0.1475,0.2374,0.0108,0.2899,69,-0.0140,-0.0305,0.0006
+nfcorpus,medcpt,MedCPT,domain dense,0.7247,0.0280,278,0.1079,0.0755,0.1475,0.0072,0.3590,39,-0.0278,-0.0446,-0.0109
+nfcorpus,medcpt+ce,MedCPT + cross-encoder,reranking,0.7365,0.0250,278,0.1187,0.0827,0.1583,0.0036,0.4146,41,-0.0283,-0.0423,-0.0150
+nfcorpus,"rrf(bm25,qwen3-emb)","RRF(BM25, Qwen3-Embedding-0.6B)",fusion,0.7348,0.0404,,,,,,,,,,
+trec-covid,bm25,BM25,lexical,0.8500,0.0341,46,0.0870,0.0217,0.1739,0.0217,0.1667,6,0.0043,-0.0279,0.0441
+trec-covid,splade-pp,SPLADE++,learned sparse,0.9377,0.0087,,,,,,,,,,
+trec-covid,gte-moderncolbert,GTE-ModernColBERT,multi-vector,0.9220,0.0076,,,,,,,,,,
+trec-covid,e5,e5-base-v2,general dense,0.9019,0.0000,46,0.0000,0.0000,0.0000,0.0000,,0,-0.0299,-0.0441,-0.0173
+trec-covid,qwen3-emb,Qwen3-Embedding-0.6B,general dense,0.8778,0.0000,46,0.0000,0.0000,0.0000,0.0000,,0,-0.0298,-0.0445,-0.0177
+trec-covid,qwen3-emb-4b,Qwen3-Embedding-4B,general dense,0.9252,0.0056,,,,,,,,,,
+trec-covid,egemma2,EmbeddingGemma 2,general dense,0.8633,0.0056,46,0.0217,0.0000,0.0870,0.0000,0.0000,1,-0.0237,-0.0399,-0.0063
+trec-covid,harrier,harrier-oss-v1-0.6b,general dense,0.8964,0.0188,46,0.0652,0.0000,0.1522,0.0000,0.6667,3,-0.0103,-0.0255,0.0073
+trec-covid,medcpt,MedCPT,domain dense,0.9192,0.0043,46,0.0217,0.0000,0.0652,0.0000,1.0000,1,-0.0248,-0.0387,-0.0122
+trec-covid,medcpt+ce,MedCPT + cross-encoder,reranking,0.8705,0.0227,46,0.0217,0.0000,0.0652,0.0000,0.0000,1,-0.0076,-0.0412,0.0465
+trec-covid,"rrf(bm25,qwen3-emb)","RRF(BM25, Qwen3-Embedding-0.6B)",fusion,0.8907,0.0204,,,,,,,,,,

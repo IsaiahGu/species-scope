@@ -1,0 +1,4 @@
+ds,docs_in_id_map,docs_with_pmid,queries,human_health_queries,queries_scored_min,queries_scored_max,human_health_share,agreement_gpt4o_mini,agreement_gpt6_luna,human_only_abstracts,animal_only_abstracts,pool_human_only,pool_animal_only,pool_both,pool_vitro_only,top10_human_only_mean11,top10_animal_only_mean11
+bioasq,40221,40221,1000,660,659,660,0.6600,0.8450,0.9150,22462,5276,0.7461,0.0890,0.1646,0.0003,0.7175,0.0859
+nfcorpus,2279,2279,323,278,275,278,0.8607,0.9250,0.8850,1566,129,0.7193,0.0530,0.2272,0.0004,0.7288,0.0409
+trec-covid,108855,108855,50,46,42,46,0.9200,0.9000,0.9400,60149,15335,0.8499,0.0325,0.1173,0.0003,0.8959,0.0116

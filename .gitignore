@@ -1,0 +1,14 @@
+/data/
+/models/
+/results/
+/logs/
+/paper_data/
+/shared/*cache*/
+/shared/gpu.lock
+/shared/no_gpu_lock
+__pycache__/
+*.pyc
+.venv*/
+.env*
+.secrets/
+*.sqlite*

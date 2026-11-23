@@ -1,0 +1,16 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+torch
+transformers
+openai
+requests
+bm25s
+PyStemmer
+sentence-transformers
+accelerate
+huggingface-hub
+lxml
+scikit-learn
